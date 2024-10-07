@@ -2,6 +2,8 @@ body {
     font-family: "Roboto", system-ui;
     display: flex;
     flex-direction: column;
+    margin: 0;
+    font-size: 18px;
 }
 
 .header {
@@ -10,6 +12,12 @@ body {
     background-color: #1F2937;
     color: #F9FAF8;
     padding: 10px 100px 10px 100px
+}
+
+.links {
+    display: flex;
+    gap: 30px;
+    align-items: center;
 }
 
 a {
@@ -26,7 +34,7 @@ a {
 }
 
 .intro-left {
-    width: 400px;
+    width: 450px;
     flex: 0 1 auto;
     display: flex;
     flex-direction:column;
@@ -96,13 +104,14 @@ button {
 }
 
 .content-2 {
-    background-color: #F9FAF8;
+    background-color: #E5E7EB;
     padding: 100px 200px;
+    
 }
 
 .quote {
     font-size: 36px;
-    font-style: italic;    
+    font-style: italic; 
 }
 
 .author {
@@ -123,7 +132,7 @@ button {
     border-radius: 5px;
 }
 
-.warning {
+.logo, .warning {
     font-size: 22px;
     font-weight: 700;
 }
