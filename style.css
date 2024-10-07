@@ -4,6 +4,7 @@ body {
     flex-direction: column;
     margin: 0;
     font-size: 18px;
+    flex: auto
 }
 
 .header {
@@ -74,7 +75,7 @@ button {
     display:flex;
     flex-direction: column;
     align-items: center;
-    margin-bottom: 75px;
+    margin-bottom: 75px
 }
 
 .snapshot-header {
@@ -87,7 +88,7 @@ button {
 .cards {
     display:flex;
     justify-content: center;
-    gap: 50px
+    gap: 50px;
 }
 
 .card-pic {
@@ -112,7 +113,6 @@ button {
 .quote {
     font-size: 36px;
     font-style: italic;
-    width: 800px
 }
 
 .author {
@@ -120,7 +120,6 @@ button {
     font-weight: 700;
     font-size: 22px;
     padding-top: 15px;
-    width: 800px
 }
 
 .content-3 {
